@@ -3,7 +3,7 @@ import React from 'react'
 function cards() {
   return (
     <div>
-      cards
+      <img src=''> </img>
     </div>
   )
 }
