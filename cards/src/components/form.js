@@ -3,7 +3,7 @@ import React from 'react'
 function form() {
   return (
     <div>
-      form
+      <input type={"text"}></input>
     </div>
   )
 }
