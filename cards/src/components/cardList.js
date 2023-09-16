@@ -1,14 +1,16 @@
 import React from "react";
 import Card from "./Card";
-import carddata from "./carddata";
 
 
-function CardList() {
+
+function CardList(props) {
+    const profiles = props.profiles;
+    if(profiles==='') return <div> No Data Found </div>
+    console.log(profiles);
     return (
-    
     <div>
-        {carddata.map((profile) => (
-             <Card {...carddata[0]}/>
+        {profiles.map((profile) => (
+             <Card {...profile}/>
         ) ) }
        
 

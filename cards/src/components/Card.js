@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 
 function Card(props) {
@@ -11,7 +12,7 @@ function Card(props) {
       <div className="company">{profile.company}</div>
     </div>
     </div>
-  )
+  );
 }
 
 export default Card;
