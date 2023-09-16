@@ -5,14 +5,15 @@ function Form() {
     const [name,setName]=useState("");
   return (
     <div>
-      <input type={"text"} onChange={(event)=>{
+      <input type={"text"} 
+      onChange={(event)=>{
         setName(event.target.value);
-        value=
-        }}
+    }}
+        value = {name}
         ></input>
       <button>Add</button>
     </div>
-  )
+  );
 }
 
 export default Form;
