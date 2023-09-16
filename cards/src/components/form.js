@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from "react";
 
-function form() {
+
+function Form() {
+    const [name,setName]=useState("");
   return (
     <div>
-      <input type={"text"}></input>
+      <input type={"text"} onChange={(event)=>{
+        setName(event.target.value);
+        value=
+        }}
+        ></input>
       <button>Add</button>
     </div>
   )
 }
 
-export default form;
+export default Form;
