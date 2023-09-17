@@ -11,8 +11,8 @@ function App() {
   setProfiles([...profiles,profiledata]);
 }
   return (
-    <div className="App bg-black h-screen">
-      <h1 className="text-7xl font-bold text-blue-800  pt-8  mb-14">Git Hub App</h1>
+    <div className="App bg-white h-screen">
+      <h1 className="text-7xl font-bold text-blue-800  pt-8  mb-14 underline">Git Hub App</h1>
       <Form onSubmit={addProfile}/>
       <CardList profiles={profiles}/>
     </div>
