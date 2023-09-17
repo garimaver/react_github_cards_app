@@ -20,7 +20,7 @@ function Form(props) {
   }}
         value = {name}
         ></input>
-      {/* <button type="submit" className="bg-gray-400 text-white text-1xl">Add</button> */}
+
       {<button type="submit"class="px-3 py-2 text-2l text-gray-100 bg-blue-700 rounded hover:bg-blue-600 hover:text-gray-100 font-bold">Add</button> }
       </form>
     </div>
