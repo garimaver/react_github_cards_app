@@ -8,7 +8,7 @@ function CardList(props) {
     if(profiles==='') return <div > No Data Found </div>
     console.log(profiles);
     return (
-    <div class="flex justify-center  ">
+    <div class=" flex flex-wrap mt-4 justify-center  ">
         {profiles.map((profile) => (
              <Card {...profile}/>
         ) ) }
